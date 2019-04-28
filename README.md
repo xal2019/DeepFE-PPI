@@ -1,7 +1,7 @@
 # DeepFE-PPI
 DeepFE-PPI: An integration of deep learning with feature embedding for protein-protein interaction prediction
 we have reported a novel predictor DeepFE-PPI，a protein-protein interaction prediction method that integrates deep learning and feature embedding.For a given protein-protein pair, we first use Res2Vec to repressnt all residues, and then we regard the feature vector as the input of the network and apply a branch of dense layers to automatically learn diverse hierarchical features. Finally, we use a neural network with four hidden layers to connect their outputs for PPIs prediction.
-===============================
+===============================\n
 Dependency:
 
 Python 3.6.2
@@ -10,7 +10,7 @@ Scikit-learn 0.19.0
 Tensorflow 1.2.0
 keras 2.0.8
 
-===============================
+===============================\n
 Datasets
 
 The main directory contains the directories of S.cerevisiae, Human and five species-specific protein-protein interaction datasets. In each directory, there are:
@@ -18,7 +18,7 @@ The whole S.cerevisiae core dataset is made up of 11188 protein pairs, including
 The human dataset consists of 3899 positive protein pairs and 4262 negative protein pairs
 Each of five species-specific protein interaction datasets (C. elegans, E. coli, H. sapiens, M. musculus, and H. pylori) contains 4013, 6954, 1412, 313 and 1420 positive protein pairs.
 
-===============================
+===============================\n
 *.py
 
 5cv_11188.py: 5-flod cross validation methods on the S.cerevisiae core dataset.
@@ -28,7 +28,7 @@ redo_cv_code.py: We rewrite the cross validation method without any libraries.
 swiss_Res2vec_val_11188.py: Parameter Selection for residue reprsetation and deep learning.
 train_11188_test_5_special.py: Codes that trains on the S.cerevisiae core dataset and tests on five species-specific protein interaction datasets.
 
-===============================
+===============================\n
 Contact us:
 dxqllp@163.com
 
