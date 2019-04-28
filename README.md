@@ -1,8 +1,6 @@
 # DeepFE-PPI
 DeepFE-PPI: An integration of deep learning with feature embedding for protein-protein interaction prediction
-
-we have reported a novel predictor DeepFE-PPI，a protein-protein interaction prediction method that integrates deep learning and feature embedding.
-For a given protein-protein pair, we first use Res2Vec to repressnt all residues, and then we regard the feature vector as the input of the network and apply a branch of dense layers to automatically learn diverse hierarchical features. Finally, we use a neural network with four hidden layers to connect their outputs for PPIs prediction.
+we have reported a novel predictor DeepFE-PPI，a protein-protein interaction prediction method that integrates deep learning and feature embedding.For a given protein-protein pair, we first use Res2Vec to repressnt all residues, and then we regard the feature vector as the input of the network and apply a branch of dense layers to automatically learn diverse hierarchical features. Finally, we use a neural network with four hidden layers to connect their outputs for PPIs prediction.
 ======================================================================================================
 Dependency:
 
@@ -30,7 +28,7 @@ redo_cv_code.py: We rewrite the cross validation method without any libraries.
 swiss_Res2vec_val_11188.py: Parameter Selection for residue reprsetation and deep learning.
 train_11188_test_5_special.py: Codes that trains on the S.cerevisiae core dataset and tests on five species-specific protein interaction datasets.
 
-=====================================================================================================
+======================================================================================================
 Contact us:
 dxqllp@163.com
 
