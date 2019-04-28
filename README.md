@@ -28,11 +28,11 @@ redo_cv_code.py: We rewrite the cross validation method without any libraries.
 swiss_Res2vec_val_11188.py: Parameter Selection for residue reprsetation and deep learning.
 train_11188_test_5_special.py: Codes that trains on the S.cerevisiae core dataset and tests on five species-specific protein interaction datasets.
 
-===============================
+
 Contact us:
 dxqllp@163.com
 
-
+This dataset was used in the paper 'DeepFE-PPI: An integration of deep learning with feature embedding for protein-protein interaction prediction' for PPI prediction. For more details, please refer to the paper.
 
 
 
