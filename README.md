@@ -36,7 +36,7 @@ The model directory contains 5 subfolders, with a folder for word2vec models and
      * human folder contains the model that the 5-flod cross validation methods executed on the human dataset.
  * rewrite: This folder contains a model corresponds to 'redo_cv_code.py'.
  * train_11188_test_5_special: This folder contains a model corresponds to 'train_11188_test_5_special.py'.
- * word2vec: This folder contains all models when Parameter Selection. 
+ * word2vec: This folder contains all word2vec models when Parameter Selection. 
  
 ===============================
 
