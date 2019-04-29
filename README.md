@@ -6,7 +6,7 @@ we have reported a novel predictor DeepFE-PPI，a protein-protein interaction pr
 
 DeepFE-PPI uses the following dependencies:
 
-• Python 3.5.2
+•Python 3.5.2
 • Numpy 1.14.1
 • Gensim 3.4.0
 • HDF5 and h5py 
