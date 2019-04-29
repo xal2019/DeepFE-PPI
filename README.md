@@ -32,8 +32,8 @@ model
 The model directory contains 5 subfolders, with a folder for word2vec models and four folders for deep learning models, and structured as follows: 
  * c1c2c3: This folder contains a model corresponds to Section " Park and Marcotte’s evaluation scheme".
  * dl: This folder have two subfolders: 
-       ** 11188 folder contains the model that the 5-flod cross validation methods executed on the S.cerevisiae core dataset.
-	   ** human folder contains the model that the 5-flod cross validation methods executed on the human dataset.
+     * 11188 folder contains the model that the 5-flod cross validation methods executed on the S.cerevisiae core dataset.
+     * human folder contains the model that the 5-flod cross validation methods executed on the human dataset.
  * rewrite: This folder contains a model corresponds to 'redo_cv_code.py'.
  * train_11188_test_5_special: This folder contains a model corresponds to 'train_11188_test_5_special.py'.
  * word2vec: This folder contains all models when Parameter Selection. 
