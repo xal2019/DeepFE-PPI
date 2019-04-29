@@ -6,14 +6,14 @@ we have reported a novel predictor DeepFE-PPI，a protein-protein interaction pr
 
 DeepFE-PPI uses the following dependencies:
 
-•Python 3.5.2
-• Numpy 1.14.1
-• Gensim 3.4.0
-• HDF5 and h5py 
-• Pickle 
-• Scikit-learn 0.19
-• Tensorflow 1.2.0
-• keras 1.2.0
+ * Python 3.5.2
+ * Numpy 1.14.1
+ * Gensim 3.4.0
+ * HDF5 and h5py 
+ * Pickle 
+ * Scikit-learn 0.19
+ * Tensorflow 1.2.0
+ * keras 1.2.0
 
 ===============================
 
@@ -57,11 +57,11 @@ Run these file from command line.
 For example:
 >python train_11188_test_5_special.py
 output:  
-accuracy_test_Celeg = 100, 
-accuracy_test_Ecoli = 100, 
-accuracy_test_Hpylo = 100, 
-accuracy_test_Hsapi = 100, 
-accuracy_test_Mmusc = 100
+ * accuracy_test_Celeg = 100, 
+ * accuracy_test_Ecoli = 100, 
+ * accuracy_test_Hpylo = 100, 
+ * accuracy_test_Hsapi = 100, 
+ * accuracy_test_Mmusc = 100
 
 
 ===============================
