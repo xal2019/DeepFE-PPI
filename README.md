@@ -11,6 +11,7 @@ Tensorflow 1.2.0
 keras 2.0.8
 
 ===============================
+
 Datasets
 
 The main directory contains the directories of S.cerevisiae, Human and five species-specific protein-protein interaction datasets. In each directory, there are:
@@ -19,6 +20,7 @@ The human dataset consists of 3899 positive protein pairs and 4262 negative prot
 Each of five species-specific protein interaction datasets (C. elegans, E. coli, H. sapiens, M. musculus, and H. pylori) contains 4013, 6954, 1412, 313 and 1420 positive protein pairs.
 
 ===============================
+
 *.py
 
 5cv_11188.py: 5-flod cross validation methods on the S.cerevisiae core dataset.
