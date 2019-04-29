@@ -50,8 +50,8 @@ The model directory contains 5 subfolders, with a folder for word2vec models and
  * train_11188_test_5_special.py: Codes that trains on the S.cerevisiae core dataset and tests on five species-specific protein interaction datasets.
 
 ===============================
-Usage: 
 
+Usage: 
 Run these file from command line. 
 
 For example:
